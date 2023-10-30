@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   
+</head>
+<body>
+    
+<!-- MAIN DIV START -->
+<div class="w-full h-full relative ">
+
+    <!-- HEADER SECTION START-->
+    <header class="nav-div w-[100%] shadow-sm fixed z-50  bg-[#e3e6f3] px-[80px] py-[22px]">          
+        <nav class=" w-[100%] home-nav flex flex-nowrap justify-between items-center">
+            <a href="index.html"><img src="./images/home-page/logo.png" alt=""></a>
+            
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa fa-bars"></i>
+            </label>
+            <ul class="list nav-item flex gap-[40px] text-[20px] font-bold backdrop-blur-2xl ">
+                <li class="home text-[#088178] relative ">
+                    <a href="index.html">Home</a>
+                    <div class=" h-1 w-[50%] bg-[#088178]"></div>
+                </li>
+                <li class="shop group new hover:text-[#088178] hover:blur-none">
+                    <a href="02-1-shop.html">Shop</a>
+                    <div class="slider "></div>
+                </li>
+                <li class=" blog group hover:text-[#088178]">
+                    <a href="03-blog.html">Blog</a>
+                    <div class="slider"></div>
+                </li>
+                <li class="about group hover:text-[#088178]">
+                    <a href="04-about.html">About</a>
+                    <div class="slider"></div>
+                </li>
+                <li class="contact group hover:text-[#088178]">
+                    <a href="05-contact.html">Contact</a>
+                    <div class="slider"></div>
+                </li>
+                <li class="card group hover:text-[#088178]">
+                    <a href="06-card.html">Card</a>
+                    <div class="slider"></div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- HEADER SECTION END  -->
+
+    <!-- HERO SECTION START  -->
+    <section class="hero  hero-bg overflow-hidden  bg-[#e3e6f3] items-start h-[100vh] w-mx-auto  px-[110px] pt-[75px]">
+        <img src="./images/home-page/blob vector.png" alt="" width="35%"
+        class="blob absolute top-[3.5%] left-[3%] animate-[pulse_1s_ease-in-out_infinite] ">
+        <div class="hero-text relative  h-[90vh] flex flex-col justify-center z-10">
+            <p class=" hero-p1 text-[20px] font-bold pb-[15px] ">Trade-in-offer</p>
+        <h1 class="hero-h1 text-[50px] font-bold leading-[1.1] ">
+          Super value deals <br>
+          <span class="text-[#088178]">On all products</span>
+        </h1>
+        <p class="hero-p font-serif mt-[15px] font-bold opacity-70 mb-[20px] tracking-[2px]">Save more with coupons & up to 70% off!</p>
+        <a href="02-1-shop.html" class="hero-link w-[17vw] ">
+            <div class="hero-button relative hover:scale-110 hover:text-[18px]">
+                <img src="./images/home-page/hero-bg-print.png" alt=""
+                class="ml-[10%]">
+                <p class="absolute top-[25%] left-[40%] font-extrabold text-[#088178] " >Shop Now</p>
+              </div>
+        </a>
+        </div>
+      
+        
+    </section>
+    <!-- HERO SECTION END    -->
+
+    <!-- FEATURES SECTION START  -->
+    <section class="feature-sec w-full relative bg-white px-[80px] py-[40px] ">
+        <div class="feature relative flex-wrap border flex justify-between">
+            
+            <div class="fea border shadow-2xl shadow-transparent border-[#CCE7D0] rounded-xl my-[15px] py-[25px] px-[15PX] flex flex-col items-center
+                        hover:shadow-[#e3e6f3]">
+                <img src="./images/home-page/free-shipping.png" alt=""
+                class="mb-[10px]">
+                <h5 class="text-[#088178]  p-1  font-bold text-[14px] rounded-md bg-[#FDDDE4]"> Free Shipping </h5>
+            </div>
+            
+            <div class="fea border shadow-2xl shadow-transparent border-[#CCE7D0] rounded-xl my-[15px] py-[25px] px-[15PX] flex flex-col items-center
+                        hover:shadow-[#e3e6f3]">
+                <img src="./images/home-page/online-order.png" alt=""
+                class="mb-[10px]">
+                <h5 class="text-[#088178] bg-[#CCEBBC]  p-1  font-bold text-[14px] rounded-md "> 
+                    Online Order </h5>
+            </div>
+            
+            <div class="fea border shadow-2xl shadow-transparent border-[#CCE7D0] rounded-xl my-[15px] py-[25px] px-[15PX] flex flex-col items-center
+                        hover:shadow-[#e3e6f3]">
+                <img src="./images/home-page/save-money.png" alt=""
+                class="mb-[10px]">
+                <h5 class=" text-[#088178] bg-[#D1E8F2]  p-1 border font-bold text-[14px] rounded-md "> 
+                    Save Money </h5>
+            </div>
+            
+            <div class="fea border shadow-2xl shadow-transparent border-[#CCE7D0] rounded-xl my-[15px] py-[25px] px-[15PX] flex flex-col items-center
+                        hover:shadow-[#e3e6f3]">
+                <img src="./images/home-page/promotions.png" alt=""
+                class="mb-[10px]">
+                <h5 class="bg-[#CDD4F8]  p-1  font-bold text-[14px] rounded-md "> 
+                    promotion </h5>
+            </div>
+            
+            <div class="fea border shadow-2xl shadow-transparent border-[#CCE7D0] rounded-xl my-[15px] py-[25px] px-[15PX] flex flex-col items-center
+                        hover:shadow-[#e3e6f3]">
+                <img src="./images/home-page/happy-sell.png" alt=""
+                class="mb-[10px]">
+                <h5 class=" text-[#088178] bg-[#F6DBF6]  p-1  font-bold text-[14px] rounded-md ">
+                    Happy Sell</h5>
+            </div>
+            
+            <div class="fea border shadow-2xl shadow-transparent border-[#CCE7D0] rounded-xl my-[15px] py-[25px] px-[15PX] flex flex-col items-center
+                        hover:shadow-[#e3e6f3]">
+                <img src="./images/home-page/24-7-support.png" alt=""
+                class="mb-[10px]">
+                <h5 class=" text-[#088178] bg-[#FFF2E5]  p-1  font-bold text-[14px] rounded-md "> 
+                    24/7 Support  </h5>
+            </div>
+           
+        </div>
+    </section>
+    <!-- FEATURES SECTION END    -->
+
+    <!-- FEATURE PRODUCTS SECTION START -->
+    <Section class="relative w-full bg-white px-[80px] py-[40px]">
+        <h2 class="text-[45px] text-center font-bold">Featured Products </h2>
+        <p class="mt-[15px] mb-[20px] text-[16px] opacity-75 font-semibold text-center">Summer Collection New Modern Design</p>
+        
+        <div class="flex flex-wrap justify-between ">
+        <a href="02-2-shop-product.html">
+            <div class="rounded-2xl border border-[#CCE7D0] my-[15px] py-[10px] px-[12px] fp ">
+            <img src="./images/home-page/fp-1.jpeg" alt=""
+            width="283px"
+            class="rounded-2xl">
+            <div class="relative font-bold ">
+                <p class="">adidas</p>
+                <h3 class="pt-[7px] font-extrabold ">Cartoon Astronaut T-Shirt</h3>
+                <div class=""> -- 5 star icons -- </div>
+                <p class="pt-[7px] text-[#088178] font-bold "> $78</p>
+                <div class="bg-[#e3e6f3] rounded-full absolute p-2 right-0 bottom-0 flex items-center">gag </div>
+                
+            </div>
+        </div>
+        </a>
+        <a href="02-2-shop-product.html">
+            <div class="rounded-2xl border border-[#CCE7D0] my-[15px] py-[10px] px-[12px] fp ">
+            <img src="./images/home-page/fp-2.jpeg" alt=""
+            width="283px"
+            class="rounded-2xl">
+            <div class="relative font-bold ">
+                <p class="">adidas</p>
+                <h3 class="pt-[7px] font-extrabold ">Cartoon Astronaut T-Shirt</h3>
+                <div class=""> -- 5 star icons -- </div>
+                <p class="pt-[7px] text-[#088178] font-bold "> $78</p>
+                <div class="bg-[#e3e6f3] rounded-full absolute p-2 right-0 bottom-0 flex items-center">gag </div>
+                
+            </div>
+        </div>
+        </a>
+        <a href="02-2-shop-product.html">
+            <div class="rounded-2xl border border-[#CCE7D0] my-[15px] py-[10px] px-[12px] fp ">
+            <img src="./images/home-page/fp-3.jpeg" alt=""
+            width="283px"
+            class="rounded-2xl">
+            <div class="relative font-bold ">
+                <p class="">adidas</p>
+                <h3 class="pt-[7px] font-extrabold ">Cartoon Astronaut T-Shirt</h3>
+                <div class=""> -- 5 star icons -- </div>
+                <p class="pt-[7px] text-[#088178] font-bold "> $78</p>
+                <div class="bg-[#e3e6f3] rounded-full absolute p-2 right-0 bottom-0 flex items-center">gag </div>
+                
+            </div>
+        </div>
+        </a>
+        <a href="02-2-shop-product.html">
+            <div class="rounded-2xl border border-[#CCE7D0] my-[15px] py-[10px] px-[12px] fp ">
+            <img src="./images/home-page/fp-4.jpeg" alt=""
+            width="283px"
+            class="rounded-2xl">
+            <div class="relative font-bold ">
+                <p class="">adidas</p>
+                <h3 class="pt-[7px] font-extrabold ">Cartoon Astronaut T-Shirt</h3>
+                <div class=""> -- 5 star icons -- </div>
+                <p class="pt-[7px] text-[#088178] font-bold "> $78</p>
+                <div class="bg-[#e3e6f3] rounded-full absolute p-2 right-0 bottom-0 flex items-center">gag </div>
+                
+            </div>
+        </div>
+        </a>
+        <a href="02-2-shop-product.html">
+            <div class="rounded-2xl border border-[#CCE7D0] my-[15px] py-[10px] px-[12px] fp ">
+            <img src="./images/home-page/fp-5.jpeg" alt=""
+            width="283px"
+            class="rounded-2xl">
+            <div class="relative font-bold ">
+                <p class="">adidas</p>
+                <h3 class="pt-[7px] font-extrabold ">Cartoon Astronaut T-Shirt</h3>
+                <div class=""> -- 5 star icons -- </div>
+                <p class="pt-[7px] text-[#088178] font-bold "> $78</p>
+                <div class="bg-[#e3e6f3] rounded-full absolute p-2 right-0 bottom-0 flex items-center">gag </div>
+                
+            </div>
+        </div>
+        </a>
+        <a href="02-2-shop-product.html">
+            <div class="rounded-2xl border border-[#CCE7D0] my-[15px] py-[10px] px-[12px] fp ">
+            <img src="./images/home-page/fp-6.jpeg" alt=""
+            width="283px"
+            class="rounded-2xl">
+            <div class="relative font-bold ">
+                <p class="">adidas</p>
+                <h3 class="pt-[7px] font-extrabold ">Cartoon Astronaut T-Shirt</h3>
+                <div class=""> -- 5 star icons -- </div>
+                <p class="pt-[7px] text-[#088178] font-bold "> $78</p>
+                <div class="bg-[#e3e6f3] rounded-full absolute p-2 right-0 bottom-0 flex items-center">gag </div>
+                
+            </div>
+        </div>
+        </a>
+        <a href="02-2-shop-product.html">
+            <div class="rounded-2xl border border-[#CCE7D0] my-[15px] py-[10px] px-[12px] fp ">
+            <img src="./images/home-page/fp-7.jpeg" alt=""
+            width="283px"
+            class="rounded-2xl">
+            <div class="relative font-bold ">
+                <p class="">adidas</p>
+                <h3 class="pt-[7px] font-extrabold ">Cartoon Astronaut T-Shirt</h3>
+                <div class=""> -- 5 star icons -- </div>
+                <p class="pt-[7px] text-[#088178] font-bold "> $78</p>
+                <div class="bg-[#e3e6f3] rounded-full absolute p-2 right-0 bottom-0 flex items-center">gag </div>
+                
+            </div>
+        </div>
+        </a>
+        <a href="02-2-shop-product.html">
+            <div class="rounded-2xl border border-[#CCE7D0] my-[15px] py-[10px] px-[12px] fp ">
+            <img src="./images/home-page/fp-8.jpeg" alt=""
+            width="283px"
+            class="rounded-2xl">
+            <div class="relative font-bold ">
+                <p class="">adidas</p>
+                <h3 class="pt-[7px] font-extrabold ">Cartoon Astronaut T-Shirt</h3>
+                <div class=""> -- 5 star icons -- </div>
+                <p class="pt-[7px] text-[#088178] font-bold "> $78</p>
+                <div class="bg-[#e3e6f3] rounded-full absolute p-2 right-0 bottom-0 flex items-center">gag </div>
+                
+            </div>
+        </div>
+        </a>
+        </div>
+    </Section>
+    <!-- FEATURE PRODUCTS SECTION END   -->
+
+    <!-- 70% OFF SECTION START  -->
+    <section class="w-full h-[40vh] bg-center bg-cover bg-no-repeat bg-[url(/images/home-page/super-sale.jpeg)]
+                    flex flex-col items-center justify-center text-white  relative my-[40px] ">
+        <p class="font-bold text-[25px] ">Super Sale</p>
+        <h1 class="py-[10px] font-extrabold text-[2.5vmax]">
+            Up to <span class="text-[#EF3636]" >70% Off </span> All t-Shirt & Accessories 
+        </h1>
+        <button class="px-4 py-2 bg-white text-black font-bold text-[2vmax] rounded-md loading "> Explore More</button>
+    </section>
+    <!-- 70% OFF SECTION END    -->
+
+
+    <!-- NEW ARRIVALS SECTION START -->
+    <Section class="relative w-full bg-white px-[80px] py-[40px]">
+        <h2 class="text-[45px] text-center font-bold">New Arrivals </h2>
+        <p class="mt-[15px] mb-[20px] text-[16px] opacity-75 font-semibold text-center">Summer Collection New Modern Design</p>
+        <div class="flex flex-wrap justify-between ">
+
+            <a href="02-2-shop-product.html">
+                <div class="rounded-2xl border border-[#CCE7D0] my-[15px] py-[10px] px-[12px] fp ">
+                <img src="./images/home-page/na-1.jpeg" alt=""
+                width="283px"
+                class="rounded-2xl">
+                <div class="relative font-bold ">
+                    <p class="">adidas</p>
+                    <h3 class="pt-[7px] font-extrabold ">Cartoon Astronaut T-Shirt</h3>
+                    <div class=""> -- 5 star icons -- </div>
+                    <p class="pt-[7px] text-[#088178] font-bold "> $78</p>
+                    <div class="bg-[#e3e6f3] rounded-full absolute p-2 right-0 bottom-0 flex items-center">gag </div>
+                    
+                </div>
+            </div>
+            </a>
+            <a href="02-2-shop-product.html">
+                <div class="rounded-2xl border border-[#CCE7D0] my-[15px] py-[10px] px-[12px] fp ">
+                <img src="./images/home-page/na-2.jpeg" alt=""
+                width="283px"
+                class="rounded-2xl">
+                <div class="relative font-bold ">
+                    <p class="">adidas</p>
+                    <h3 class="pt-[7px] font-extrabold ">Cartoon Astronaut T-Shirt</h3>
+                    <div class=""> -- 5 star icons -- </div>
+                    <p class="pt-[7px] text-[#088178] font-bold "> $78</p>
+                    <div class="bg-[#e3e6f3] rounded-full absolute p-2 right-0 bottom-0 flex items-center">gag </div>
+                    
+                </div>
+            </div>
+            </a>
+            <a href="02-2-shop-product.html">
+                <div class="rounded-2xl border border-[#CCE7D0] my-[15px] py-[10px] px-[12px] fp ">
+                <img src="./images/home-page/na-3.jpeg" alt=""
+                width="283px"
+                class="rounded-2xl">
+                <div class="relative font-bold ">
+                    <p class="">adidas</p>
+                    <h3 class="pt-[7px] font-extrabold ">Cartoon Astronaut T-Shirt</h3>
+                    <div class=""> -- 5 star icons -- </div>
+                    <p class="pt-[7px] text-[#088178] font-bold "> $78</p>
+                    <div class="bg-[#e3e6f3] rounded-full absolute p-2 right-0 bottom-0 flex items-center">gag </div>
+                    
+                </div>
+            </div>
+            </a>
+            <a href="shop-product.html">
+                <div class="rounded-2xl border border-[#CCE7D0] my-[15px] py-[10px] px-[12px] fp ">
+                <img src="./images/home-page/na-4.jpeg" alt=""
+                width="283px"
+                class="rounded-2xl">
+                <div class="relative font-bold ">
+                    <p class="">adidas</p>
+                    <h3 class="pt-[7px] font-extrabold ">Cartoon Astronaut T-Shirt</h3>
+                    <div class=""> -- 5 star icons -- </div>
+                    <p class="pt-[7px] text-[#088178] font-bold "> $78</p>
+                    <div class="bg-[#e3e6f3] rounded-full absolute p-2 right-0 bottom-0 flex items-center">gag </div>
+                    
+                </div>
+            </div>
+            </a>
+            <a href="02-2-shop-product.html">
+                <div class="rounded-2xl border border-[#CCE7D0] my-[15px] py-[10px] px-[12px] fp ">
+                <img src="./images/home-page/na-5.jpeg" alt=""
+                width="283px"
+                class="rounded-2xl">
+                <div class="relative font-bold ">
+                    <p class="">adidas</p>
+                    <h3 class="pt-[7px] font-extrabold ">Cartoon Astronaut T-Shirt</h3>
+                    <div class=""> -- 5 star icons -- </div>
+                    <p class="pt-[7px] text-[#088178] font-bold "> $78</p>
+                    <div class="bg-[#e3e6f3] rounded-full absolute p-2 right-0 bottom-0 flex items-center">gag </div>
+                    
+                </div>
+            </div>
+            </a>
+            <a href="02-2-shop-product.html">
+                <div class="rounded-2xl border border-[#CCE7D0] my-[15px] py-[10px] px-[12px] fp ">
+                <img src="./images/home-page/na-6.jpeg" alt=""
+                width="283px"
+                class="rounded-2xl">
+                <div class="relative font-bold ">
+                    <p class="">adidas</p>
+                    <h3 class="pt-[7px] font-extrabold ">Cartoon Astronaut T-Shirt</h3>
+                    <div class=""> -- 5 star icons -- </div>
+                    <p class="pt-[7px] text-[#088178] font-bold "> $78</p>
+                    <div class="bg-[#e3e6f3] rounded-full absolute p-2 right-0 bottom-0 flex items-center">gag </div>
+                    
+                </div>
+            </div>
+            </a>
+            <a href="02-2-shop-product.html">
+                <div class="rounded-2xl border border-[#CCE7D0] my-[15px] py-[10px] px-[12px] fp ">
+                <img src="./images/home-page/na-7.jpeg" alt=""
+                width="283px"
+                class="rounded-2xl">
+                <div class="relative font-bold ">
+                    <p class="">adidas</p>
+                    <h3 class="pt-[7px] font-extrabold ">Cartoon Astronaut T-Shirt</h3>
+                    <div class=""> -- 5 star icons -- </div>
+                    <p class="pt-[7px] text-[#088178] font-bold "> $78</p>
+                    <div class="bg-[#e3e6f3] rounded-full absolute p-2 right-0 bottom-0 flex items-center">gag </div>
+                    
+                </div>
+            </div>
+            </a>
+            <a href="shop-product.html">
+                <div class="rounded-2xl border border-[#CCE7D0] my-[15px] py-[10px] px-[12px] fp ">
+                <img src="./images/home-page/na-8.jpeg" alt=""
+                width="283px"
+                class="rounded-2xl">
+                <div class="relative font-bold ">
+                    <p class="">adidas</p>
+                    <h3 class="pt-[7px] font-extrabold ">Cartoon Astronaut T-Shirt</h3>
+                    <div class=""> -- 5 star icons -- </div>
+                    <p class="pt-[7px] text-[#088178] font-bold "> $78</p>
+                    <div class="bg-[#e3e6f3] rounded-full absolute p-2 right-0 bottom-0 flex items-center">gag </div>
+                    
+                </div>
+            </div>
+            </a>
+
+        </div>
+    </Section>
+    <!-- NEW ARRIVALS SECTION END   -->
+
+    <!-- Sale & Offer SECTION START -->
+    <section class="w-[100%] h-auto relative bg-white sm:px-[80px] py-[40px] border pl-[15px] ">
+        <div class="crazy-div p-[30px] text-white flex flex-wrap justify-evenly px-[10px] " > 
+            <div class=" crazy p-[30px] bg-[url(./images/home-page/buy-1-get-1.jpeg)] bg-cover bg-no-repeat border w-[580px] h-[50vh] 
+                        flex flex-col justify-center items-start group cursor-pointer">
+                    <p class="font-semibold text-[25px]">Crazy Deals </p>
+                    <h3 class="text-[29px] font-extrabold">But 1 Get 1 Free</h3>
+                    <p class="text-[15px] font-extrabold pb-[15px]" >The Best Classic Dress in on Sale at Cara</p>
+                    <button class="border px-[18px] py-[11px] font-extrabold  group-hover:bg-[#088178] group-hover:border-[#088178]">Learn More</button>
+                
+            </div>
+            <div class=" crazy p-[30px] bg-[url(./images/home-page/upcoming-season.jpeg)] bg-cover bg-no-repeat border w-[580px] h-[50vh] 
+                        flex flex-col justify-center items-start group cursor-pointer">
+                    <p class="font-semibold text-[25px]">Spring Season</p>
+                    <h3 class="text-[29px] font-extrabold">Upcoming Season</h3>
+                    <p class="text-[15px] font-extrabold pb-[15px]" >The Best Classic Dress in on Sale at Cara</p>
+                    <button class="border px-[18px] py-[11px] font-extrabold  group-hover:bg-[#088178] group-hover:border-[#088178]">Learn More</button>
+                
+            </div>
+        </div>
+    </section>
+    <!-- Sale & Offer SECTION END   -->
+
+    <!-- NEW COLLECTION SECTION START -->
+    <section class="w-[100%] h-auto bg-white  sm:px-[80px] px-[15px]">
+        <div class="  relative flex flex-wrap justify-between  w-[100%] h-auto ">
+            
+            <div class="winter flex flex-col justify-center items-start p-[20px] mb-[20px] min-w-[30%] h-[30vh] 
+                       bg-[url(./images/home-page/seasonal-sale.jpeg)] bg-cover bg-no-repeat">
+                <h3 class="font-bold text-[22px] leading-[3.5] text-white">Sessional Sale</h3>
+                <p class="font-bold text-[15px]">Winter Collection - Up to 50% Off</p>
+            </div>
+            
+            <div class="winter flex flex-col justify-center items-start p-[20px] mb-[20px] bg-no-repeat bg-cover
+                         min-w-[30%] h-[30vh] bg-[url(./images/home-page/new-footwear.jpeg)] ">
+                <h3 class="font-bold text-[22px] leading-[3.5] text-white">New Footwear Collection</h3>
+                <p class="font-bold text-[15px]">Spring/Summer 2023</p>
+            </div>
+            <div class="winter flex flex-col justify-center items-start p-[20px] mb-[20px] bg-no-repeat bg-cover
+                         min-w-[30%] h-[30vh] bg-[url(./images/home-page/t-shirt.jpeg)] ">
+                <h3 class="font-bold text-[22px] leading-[3.5] text-white">T-Shirt</h3>
+                <p class="font-bold text-[15px]">New Trendy Prints </p>
+            </div>
+           
+        </div>
+    </section>
+    <!-- NEW COLLECTION SECTION END   -->
+
+    <!-- FOOTER SECTION START -->
+
+       <!-- NEWSLETTER SECTION START -->
+       <section class="newsletter px-[80px] py-[40px] m-[2.5rem] bg-[url(./images/home-page/newsletter-bg.png)] bg-center bg-[#041e42] bg-no-repeat">
+        <div class=" news flex  flex-wrap justify-between items-center static">
+            <div class="text-white">
+                <h3 class="font-bold text-[25px]">Sign Up For Newsletter</h3>
+                <p class="font-bold text-[15px]">Get E-mail updates our latest shop and <span class="text-yellow-500">Special Offers</span></p>
+            </div>
+            <div class="">
+                <input type="text" placeholder="Enter your Email Id"
+                class="newsletter-input input w-[20vw] max-h-[2.5rem] px-5 py-2 rounded-l"><button 
+                class="text-white text-[1rem] max-h-[2.5rem] font-bold bg-[#088178] px-5 py-2 rounded-r">
+                Sign-up</button>
+            </div>
+        </div>
+
+       </section>
+       <!-- NEWSLETTER SECTION END -->
+
+       <!-- FOOTER CONTACT SECTION START -->
+       <footer class="footer w-full relative bg-white px-[5rem] py-[2.5rem] 
+                      flex flex-wrap justify-between">
+        <div>
+            <img src="./images/home-page/logo.png" alt="">
+            <h3 class="font-bold text-[20px] py-2">Contact</h3>
+            <div class="text-[#465b52] space-y-[8px] text-[13px] mb-5">
+                <p><strong>Address:</strong> 562 Wellington Road, Street 32, San Francisco</p>
+                <p><strong>Phone:</strong> +01 2222 365 / (+91) 01 2345 678</p>
+                <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+           
+            </div>
+            <p class="font-semibold mb-2">Follow US</p>
+            <div>
+                --social media icons--
+            </div>
+        </div>
+
+        <div class="font-semibold">
+            <h3 class="font-bold text-[20px] pb-4">About </h3>
+            <ul class="space-y-2">
+                <li class="hover:text-[#088178]">
+                    <a href="">About Us</a>
+                </li>
+                <li class="hover:text-[#088178]">
+                    <a href="">Delivery Information</a>
+                </li>
+                <li class="hover:text-[#088178]">
+                    <a href="">Privacy Policy</a>
+                </li>
+                <li class="hover:text-[#088178]">
+                    <a href="">Contact Us</a>
+                </li>
+            </ul>
+           
+        </div>
+
+        <div class="font-semibold">
+            <h3 class="font-bold text-[20px] pb-4">My Account </h3>
+            <ul class="space-y-2">
+                <li class="hover:text-[#088178]">
+                    <a href="">Sign In</a>
+                </li>
+                <li class="hover:text-[#088178]">
+                    <a href="">View Cart</a>
+                </li>
+                <li>
+                    <a href="">My Wishlist</a>
+                </li>
+                <li class="hover:text-[#088178]">
+                    <a href="">Track My Order</a>
+                </li>
+                <li class="hover:text-[#088178]">
+                    <a href="">Help</a>
+                </li>
+            </ul>
+           
+        </div>
+
+        <div class="space-y-3  ">
+            <h3 class="font-bold">Install App</h3>
+            <p class="text-[#5d6f67]"> From App Store or Google Play Store </p>
+            <div class="flex  gap-[10px]  ">
+                <img src="./images/home-page/app-store.jpeg" alt="" width="130px"
+                class="border border-[#269088] rounded-md">
+                <img src="./images/home-page/google-play.jpeg" alt="" width="130px"
+                class="border border-[#269088] rounded-md">
+            </div>
+            <p class="text-[#5d6f67]">Secure Payment gateway </p>
+            <div>
+                <img src="./images/home-page/payment-cards.png" alt="">
+            </div>
+        </div>
+
+        <div class="w-[100%] text-center my-5">
+            <p> &copy; Gagan Baghel </p>
+        </div>
+
+       </footer>
+       <!-- FOOTER CONTACT SECTION END -->
+
+</div>
+<!-- MAIN DIV END   -->
+    
+</body>
+</html>

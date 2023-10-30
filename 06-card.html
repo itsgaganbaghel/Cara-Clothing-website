@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce-Contact</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        table{
+            row-gap: 20px;
+            column-gap: 20px;
+            /* border: 2px solid black; */
+        }
+
+         tbody, tr, td {
+            text-align: center;
+            /* border: 2px solid black; */
+            
+        }
+        thead{
+        border-left: transparent;
+        border-right: transparent;
+        }
+        td{
+            padding-top: 20px;
+            width: 150px;
+        }
+        
+    </style>
+</head>
+
+<body>
+<div class="w-[100%] relative bg-white">
+
+     <!-- HEADER SECTION START-->
+    <header class="nav-div w-[100%] shadow-sm fixed z-50  bg-[#e3e6f3] px-[80px] py-[22px]">          
+        <nav class=" w-[100%] home-nav flex flex-nowrap justify-between items-center">
+            <a href="index.html"><img src="./images/home-page/logo.png" alt=""></a>
+            
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa fa-bars"></i>
+            </label>
+            <ul class="list nav-item flex gap-[40px] text-[20px] font-bold  backdrop-blur-2xl">
+                <li class="home group hover:text-[#088178]">
+                    <a href="index.html">Home</a>
+                    <div class="slider"></div>
+                </li>
+                <li class="shop group new hover:text-[#088178] hover:blur-none">
+                    <a href="02-1-shop.html">Shop</a>
+                    <div class="slider "></div>
+                </li>
+                <li class=" blog group hover:text-[#088178]">
+                    <a href="03-blog.html">Blog</a>
+                    <div class="slider"></div>
+                </li>
+                <li class="about group hover:text-[#088178]">
+                    <a href="04-about.html">About</a>
+                    <div class="slider"></div>
+                </li>
+                <li class="contact group hover:text-[#088178]">
+                    <a href="05-contact.html">Contact</a>
+                    <div class="slider"></div>
+                </li>
+                
+                <li class=" card  text-[#088178] relative ">
+                    <a href="06-card.html">Card</a>
+                    <div class=" h-1 w-[50%] bg-[#088178]"></div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- HEADER SECTION END  -->
+
+ <!-- HERO SECTION START -->
+ <section class="relative w-[100%] h-auto pt-[80px]">
+    <div class=" w-[100%] h-[40vh] bg-[url(./images/About/about-banner.png)] text-white bg-cover flex flex-col justify-center items-center">
+        <h3 class="text-[44px] font-bold leading-[2.5rem]">#let'sTalk? </h3>
+        <p class="text-[15px] font-semibold mt-[15px] mb-[20px] ">Leave a Message, We'd Love To Hear From You!</p>
+    </div>
+</section>
+<!-- HERO SECTION END   -->
+
+<!-- CARD TABLE SECTION START  -->
+<section class="card-sec px-[80px] py-[40px]">
+    <table class="card-table w-[100%] relative  mx-auto">
+        <thead class="border h-[40px]">
+            <tr class="table-head">
+                <th>REMOVE</th>
+                <th>IMAGE</th>
+                <th>PRODUCT</th>
+                <th>PRICE</th>
+                <th>QUANTITY</th>
+                <th>SUBTOTAL</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <a href=""
+                    class=" w-[50px] h-[50px] bg-green-400 rounded-full p-2">
+                    X
+                    </a>
+                </td>
+                <td>
+                    <img src="./images/home-page/fp-1.jpeg" alt="" width="70px"
+                    class="mx-[35%] card-table-item-img">
+                </td>
+                <td class="w-auto card-table-item-name">Cartoon Astronaut T-shirt</td>
+                <td class="card-table-item-price">$118.19</td>
+                <td>
+                    <input type="number" name="count" id="count" value="1"
+                    class="card-table-item-quantity border border-black w-[50px] h-[40px]">
+                </td>
+                <td class="card-table-item-subtotal">$118.19</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href=""
+                    class=" w-[50px] h-[50px] bg-green-400 rounded-full p-2">
+                    X
+                    </a>
+                </td>
+                <td>
+                    <img src="./images/home-page/fp-1.jpeg" alt="" width="70px"
+                    class="mx-[35%] card-table-item-img">
+                </td>
+                <td class="w-auto card-table-item-name">Cartoon Astronaut T-shirt</td>
+                <td class="card-table-item-price">$118.19</td>
+                <td>
+                    <input type="number" name="count" id="count" value="1"
+                    class="card-table-item-quantity border border-black w-[50px] h-[40px]">
+                </td>
+                <td class="card-table-item-subtotal">$118.19</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href=""
+                    class=" w-[50px] h-[50px] bg-green-400 rounded-full p-2">
+                    X
+                    </a>
+                </td>
+                <td>
+                    <img src="./images/home-page/fp-1.jpeg" alt="" width="70px"
+                    class="mx-[35%] card-table-item-img">
+                </td>
+                <td class="w-auto card-table-item-name">Cartoon Astronaut T-shirt</td>
+                <td class="card-table-item-price">$118.19</td>
+                <td>
+                    <input type="number" name="count" id="count" value="1"
+                    class="card-table-item-quantity border border-black w-[50px] h-[40px]">
+                </td>
+                <td class="card-table-item-subtotal">$118.19</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<!-- CARD TABLE SECTION END    -->
+
+<!-- SECTION-02 START  -->
+<section class="card-sec  relative w-[100%] px-[80px] py-[40px] flex flex-wrap ">
+    <div class="card-sec-02-div w-[50%]">
+        <h2 class="font-bold text-[20px]">Apply Coupon </h2>
+        <div class="w-[105%] py-6">
+            <input type="text" placeholder=" Enter Your Coupon" class="w-[60%] border h-[45px] font-semibold">
+            <button class="text-white text-[16px] font-bold bg-[#088178] ml-2 px-8 py-3 rounded-md">Apply</button> 
+        </div>
+    </div>
+    <div  class="card-sec-02-div border w-[50%] p-4">
+        <h3 class="font-bold text-[20px] mb-3">Card Total</h3>
+        <table class="w-[100%]">
+            <tr class="border font-bold ">
+                <td class=" text-start text-[12px] pl-2">Cart Subtotals</td>
+                <td class=" text-start border pl-2 text-[12px]">$335</td>
+            </tr>
+            <tr class="border font-bold">
+                <td class=" text-start text-[12px] pl-2">Shipping</td>
+                <td class=" text-start text-[12px] pl-2  border">Free</td>
+            </tr>
+            <tr class="border font-bold ">
+                <th class=" text-start text-[12px] pl-2 ">Total</th>
+                <td class=" text-start text-[12px] pl-2  border">$335</td>
+            </tr>
+        </table>
+        <button class="text-white text-[16px]  font-bold bg-[#088178] px-6 py-4 rounded-md my-4">Proceed To Check Out </button>
+    </div>
+</section>
+<!-- SECTION-02 END    -->
+
+     <!-- FOOTER SECTION START -->
+
+       <!-- NEWSLETTER SECTION START -->
+       <section class="newsletter px-[80px] py-[40px] m-[2.5rem] bg-[url(./images/home-page/newsletter-bg.png)] bg-center bg-[#041e42] bg-no-repeat">
+        <div class=" news flex  flex-wrap justify-between items-center static">
+            <div class="text-white">
+                <h3 class="font-bold text-[25px]">Sign Up For Newsletter</h3>
+                <p class="font-bold text-[15px]">Get E-mail updates our latest shop and <span class="text-yellow-500">Special Offers</span></p>
+            </div>
+            <div class="">
+                <input type="text" placeholder="Enter your Email Id"
+                class="newsletter-input input w-[20vw] max-h-[2.5rem] px-5 py-2 rounded-l"><button 
+                class="text-white text-[1rem] max-h-[2.5rem] font-bold bg-[#088178] px-5 py-2 rounded-r">
+                Sign-up</button>
+            </div>
+        </div>
+
+       </section>
+       <!-- NEWSLETTER SECTION END -->
+
+       <!-- FOOTER CONTACT SECTION START -->
+       <footer class="footer w-full relative bg-white px-[5rem] py-[2.5rem] 
+                      flex flex-wrap justify-between">
+        <div>
+            <img src="./images/home-page/logo.png" alt="">
+            <h3 class="font-bold text-[20px] py-2">Contact</h3>
+            <div class="text-[#465b52] space-y-[8px] text-[13px] mb-5">
+                <p><strong>Address:</strong> 562 Wellington Road, Street 32, San Francisco</p>
+                <p><strong>Phone:</strong> +01 2222 365 / (+91) 01 2345 678</p>
+                <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+           
+            </div>
+            <p class="font-semibold mb-2">Follow US</p>
+            <div>
+                --social media icons--
+            </div>
+        </div>
+
+        <div class="font-semibold">
+            <h3 class="font-bold text-[20px] pb-4">About </h3>
+            <ul class="space-y-2">
+                <li class="hover:text-[#088178]">
+                    <a href="">About Us</a>
+                </li>
+                <li class="hover:text-[#088178]">
+                    <a href="">Delivery Information</a>
+                </li>
+                <li class="hover:text-[#088178]">
+                    <a href="">Privacy Policy</a>
+                </li>
+                <li class="hover:text-[#088178]">
+                    <a href="">Contact Us</a>
+                </li>
+            </ul>
+           
+        </div>
+
+        <div class="font-semibold">
+            <h3 class="font-bold text-[20px] pb-4">My Account </h3>
+            <ul class="space-y-2">
+                <li class="hover:text-[#088178]">
+                    <a href="">Sign In</a>
+                </li>
+                <li class="hover:text-[#088178]">
+                    <a href="">View Cart</a>
+                </li>
+                <li>
+                    <a href="">My Wishlist</a>
+                </li>
+                <li class="hover:text-[#088178]">
+                    <a href="">Track My Order</a>
+                </li>
+                <li class="hover:text-[#088178]">
+                    <a href="">Help</a>
+                </li>
+            </ul>
+           
+        </div>
+
+        <div class="space-y-3  ">
+            <h3 class="font-bold">Install App</h3>
+            <p class="text-[#5d6f67]"> From App Store or Google Play Store </p>
+            <div class="flex  gap-[10px]  ">
+                <img src="./images/home-page/app-store.jpeg" alt="" width="130px"
+                class="border border-[#269088] rounded-md">
+                <img src="./images/home-page/google-play.jpeg" alt="" width="130px"
+                class="border border-[#269088] rounded-md">
+            </div>
+            <p class="text-[#5d6f67]">Secure Payment gateway </p>
+            <div>
+                <img src="./images/home-page/payment-cards.png" alt="">
+            </div>
+        </div>
+
+        <div class="w-[100%] text-center my-5">
+            <p> &copy; Gagan Baghel </p>
+        </div>
+
+       </footer>
+       <!-- FOOTER CONTACT SECTION END -->
+
+    <!-- FOOTER SECTION END   -->
+</div>
+</body>
+</html>
